@@ -34,11 +34,6 @@ function App() {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#pricing">
-              Тарифы
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
             <Link color="foreground" href="#faq">
               FAQ
             </Link>
