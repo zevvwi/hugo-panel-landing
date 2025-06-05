@@ -34,7 +34,7 @@ export const HeroSection = () => {
             <Card className="shadow-lg border border-divider overflow-hidden">
               <CardBody className="p-0">
                 <img 
-                  src="images/dashboard.png" 
+                  src="https://cdn.discordapp.com/attachments/942286366623019038/1380155041519767643/hugo_panel_1.png?ex=6842d90b&is=6841878b&hm=46f0bc2022a4b66506051a0b208644ebca41c1e7f0cf828034c04a489532e3d6&" 
                   alt="Hugo Panel Dashboard" 
                   className="w-full h-auto object-cover"
                 />
