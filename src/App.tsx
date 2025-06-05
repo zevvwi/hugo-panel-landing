@@ -6,9 +6,7 @@ import { FeatureSection } from "./components/feature-section";
 import { WorkflowSection } from "./components/workflow-section";
 import { ProblemSolutionSection } from "./components/problem-solution-section";
 import { BenefitsSection } from "./components/benefits-section";
-import { PricingSection } from "./components/pricing-section";
 import { FaqSection } from "./components/faq-section";
-import { CtaSection } from "./components/cta-section";
 import { Footer } from "./components/footer";
 
 function App() {
@@ -48,9 +46,6 @@ function App() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="primary" href="#contact" variant="flat">
-              Связаться с нами
-            </Button>
           </NavbarItem>
         </NavbarContent>
       </Navbar>
@@ -61,9 +56,7 @@ function App() {
         <WorkflowSection />
         <ProblemSolutionSection />
         <BenefitsSection />
-        <PricingSection />
         <FaqSection />
-        <CtaSection />
       </main>
 
       <Footer />
